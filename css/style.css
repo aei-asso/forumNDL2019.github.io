@@ -35,17 +35,9 @@ a:link{
   font-size: 20px;
 }
 
-a:visited{
-  color: mintcream;
-}
-
 .savoir:hover{
   font-size: 21px;
   border-bottom: 1px solid;
-}
-
-a:active{
-  color: purple;
 }
 
 .banderole{
