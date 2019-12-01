@@ -1,40 +1,13 @@
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html, body {
-	height: 100%;
-	margin: 0; padding: 0;
-}
-body {
-	display : table;
-	width: 100%;
-}
-footer {
-	display : table-footer-group;
-	height: 20px; /* à titre d'exemple */
-  background-color: black;
-}
-#foot {
-  color : white;
-  text-transform : uppercase;
-}
-
 .left {
   float: left;
   border: 11px solid black;
   width: 45%;
-  height: 50%;
+  height: auto;
   text-align: center;
   clear: both;
   margin-bottom: 5px;
   margin-left : 4%;
   background-color: white;
-}
-
-#recrut{
-  color: black;
 }
 
 #id1 div, #id2 div, #id3 div, #id4 div, #id5 div, #id6 div {
@@ -57,16 +30,16 @@ body{
 
 a:link{
   text-decoration: none;
-  color: black;
+  color: grey;
   border-bottom: 0px;
   font-size: 20px;
 }
 
 a:visited{
-  color: black;
+  color: mintcream;
 }
 
-a:hover{
+.savoir:hover{
   font-size: 21px;
   border-bottom: 1px solid;
 }
@@ -86,7 +59,7 @@ a:active{
   float: right;
   border: 11px solid black;
   width: 45%;
-  height: 50%;
+  height: auto;
   text-align: center;
   margin-bottom: 5px;
   margin-right : 4%;
@@ -99,6 +72,29 @@ footer img{
   margin-left: 8%;
   vertical-align: middle;
   margin-right: 15px;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	margin: 0; padding: 0;
+}
+body {
+	display : table;
+	width: 100%;
+}
+footer {
+	display : table-footer-group;
+	height: 20px; /* à titre d'exemple */
+  background-color: black;
+}
+footer div p {
+  color : grey;
+  text-transform : uppercase;
 }
 
 /* http://pingouindesalpes.com/hugo/post/popup/#fermer */
