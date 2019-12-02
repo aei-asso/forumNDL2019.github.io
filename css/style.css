@@ -14,6 +14,10 @@
   background-color: whitesmoke;
 }
 
+#recrut{
+  color: black;
+}
+
 body{
   position: relative;
   z-index: 10;
@@ -89,11 +93,11 @@ body {
 }
 footer {
 	display : table-footer-group;
-	height: 20px; /* à titre d'exemple */
+	height: 20px;
   background-color: black;
 }
 footer div p {
-  color : grey;
+  color : white;
   text-transform : uppercase;
 }
 
